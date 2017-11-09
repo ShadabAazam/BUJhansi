@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.stickpick.fragments.MCA1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/AttendanceMca1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/frame_list_view_height" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Base.AlertDialog.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Attendance"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</FrameLayout>
